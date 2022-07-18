@@ -522,6 +522,7 @@ footer h4 {
 
     h1.text-g {
         width: 20rem;
+        display: none;
     }
 }
 
