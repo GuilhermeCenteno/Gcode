@@ -519,6 +519,10 @@ footer h4 {
         gap: 10px;
     }
 
+    li a {
+        font-weight: 500;
+    }
+
     .Heatmap h1, .Heatmap p, .Heatmap h6{
         font-size: 16px;
         position: relative;
