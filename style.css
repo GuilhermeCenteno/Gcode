@@ -536,7 +536,11 @@ footer h4 {
     }
 
     .Heatmap h1, .Heatmap p, .Heatmap h6 {
-        left: 2rem;
+        left: 1rem;
+    }
+
+    h1.text-g {
+        width: 80%;
     }
 
     .Heatmap-img img {
@@ -564,12 +568,13 @@ footer h4 {
         gap: 10px 0px;
     }
     .Heatmap h1, .Heatmap p, .Heatmap h6 {
-        left: 1rem;
+        left: 0rem;
     }
 
     .Heatmap h1 {
         font-size: 14px;
-        width: 300px;
+        width: 270px;
+        margin-bottom: 10px;
     }
 
     .Heatmap-text {
