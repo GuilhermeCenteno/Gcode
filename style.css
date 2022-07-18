@@ -508,7 +508,7 @@ footer h4 {
 @media screen and (max-width: 480px) {
 
     body {
-        background: rgb(7, 1, 80);
+        background: rgb(11, 1, 114);
     }
 
     .menu {
@@ -527,6 +527,14 @@ footer h4 {
 
     h1.text-g {
         width: 20rem;
+    }
+
+    .btn a {
+        font-weight: 500;
+    }
+
+    footer h4 {
+        font-weight: 500;
     }
 }
 
