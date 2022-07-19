@@ -153,7 +153,7 @@ main {
     padding: 5px 15px;
     border-radius: 15px;
     font-size: 17px;
-    font-weight: lighter;
+    font-weight: 500;
     transition: 1.5s;
 }
 
