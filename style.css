@@ -488,6 +488,12 @@ footer h4 {
     }
 }
 
+@media screen and (max-width: 627px) {
+    .card-text span {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 530px) {
 
     .menu {
