@@ -534,6 +534,8 @@ footer h4 {
 
     h1.text-g {
         width: 20rem;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .btn a {
