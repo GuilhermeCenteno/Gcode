@@ -412,7 +412,7 @@ div.card {
 .img-contato {
     display: flex;
     flex-direction: column;
-    gap: 20px 0px;
+    gap: 22px 0px;
 }
 
 .img-contato img {
@@ -422,8 +422,8 @@ div.card {
 .link-contato {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin-top:5px;
+    gap: 22px 0px;
+    margin-top:2px;
     margin-left: 10px;
     width: 250px;
     height: 110px;
