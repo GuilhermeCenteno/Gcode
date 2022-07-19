@@ -63,7 +63,7 @@ li {
 }
 
 li a {
-    color: rgb(2, 69, 255);
+    color: #183086;
     text-decoration: none;
     padding: 10px 15px;
     font-size: 17px;
@@ -148,7 +148,7 @@ main {
 
 .btn a {
     background: whitesmoke;
-    color: blue;
+    color: #183086;
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 15px;
