@@ -67,7 +67,7 @@ li a {
     text-decoration: none;
     padding: 10px 15px;
     font-size: 17px;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 li a:hover {
@@ -110,6 +110,7 @@ main {
 
 .Heatmap-text h6 {
     font-size: 17px;
+    margin-bottom: -10px;
 }
 
 .Heatmap h1 {
@@ -272,6 +273,7 @@ div.img-linguagens {
     justify-content: center;
     align-items: center;
     gap: 120px;
+    margin-top: 10px;
 }
     /* Fim Linguagens */
 
