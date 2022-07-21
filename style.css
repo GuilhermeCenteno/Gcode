@@ -439,9 +439,15 @@ div.card {
 /* Seção portfólio */
 #Portfólio {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
+    padding: 0px;
+}
+
+section#Portfólio h4 {
+    position: relative;
+    top: 0;
 }
 
 .port-card {
@@ -453,9 +459,6 @@ div.card {
     gap: 10px 0px;
 }
 
-.port-card h3 {
-    color: white;
-}
 
 #Portfólio h4 {
     color: white;
@@ -467,26 +470,44 @@ div.card {
     border-radius: 5px 0px 0px 0px;
     width: 120px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 180px;
 }
 
 .img-port-1 {
     box-shadow: 1px 1px 1px 1px black;
-    height: 500px;
+    height: 400px;
     width: 400px;
     position: relative;
-    bottom: 30px;
+    bottom: 160px;
+    background-color: red;
 }
 
 .img-port-1 img {
-    height: 500px;
+    height: 400px;
     width: 100%;
-    transition: 1.2s;
+    transition: 1.5s;
+}
+
+.port-card a {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 1.5s;
+    position: relative;
+    bottom: 120px;
+}
+
+.port-card a:hover {
+    transform: scale(1.1);
+    background-color: green;
+    box-shadow: -1px 0px 2px 0px white;
 }
 
 .img-port-1 img:hover {
     transform: scale(1.1);
-    cursor: pointer;
 }
 /* Seção portfólio */
     /* Fim Portfólio */
