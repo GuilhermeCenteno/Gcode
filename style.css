@@ -231,6 +231,8 @@ div.foco {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    position: relative;
+    bottom: 120px;
 }
 
 .linguagens-1 {
@@ -286,6 +288,8 @@ div.img-linguagens {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+    bottom: 120px;
 }
 
 .ferramentas-1 {
