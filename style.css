@@ -383,7 +383,41 @@ div.card {
     /* Inicio Portfólio */
     /* Fim Portfólio */
 
+/* Seção portfólio*/
+#Portfólio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.port-card {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.port-card h3 {
+    color: white;
+}
+
+#Portfólio h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img-port-1 {
+    height: 400px;
+    width: 400px;
+    background-image: url('img/port/House\ cake\ desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* Seção portfólio*/
     /* Inicio Contato */
 #contato {
     width: 100%;
