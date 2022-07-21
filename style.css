@@ -392,7 +392,7 @@ div.card {
 }
 
 .port-card {
-    padding: 100px 0px;
+    padding: 60px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,8 +406,10 @@ div.card {
 
 #Portfólio h4 {
     color: white;
-    font-size: 18px;
-    font-weight: bold;
+}
+
+#Portfólio p {
+    color: white;
 }
 
 .img-port-1 {
@@ -416,6 +418,8 @@ div.card {
     background-image: url('img/port/House\ cake\ desktop.png');
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
+    left: 10px;
 }
 /* Seção portfólio*/
     /* Inicio Contato */
