@@ -60,9 +60,10 @@ header {
 
 li {
     margin-left: 10px;
+    transition: 3s;
 }
 
-li a {
+li > a {
     color: #183086;
     text-decoration: none;
     padding: 10px 15px;
@@ -70,8 +71,9 @@ li a {
     font-weight: 500;
 }
 
-li a:hover {
+.menu li > a:hover {
     color: #183086;
+    border: 1px solid;
 }
     /* Fim navbar*/
 /* Fim Topo */
@@ -330,6 +332,56 @@ div.img-linguagens {
 
     /* Fim Ferramentas */
 
+    /* Inicio serviços */
+/* Seção serviços */
+section#Serviços {
+    margin: 200px 0px;
+}
+
+section#Serviços > h4 {
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-serv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 100px;
+    justify-content: center;
+}
+
+.serv-card {
+    display: flex;
+    gap: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(5, 1, 109);
+    box-shadow: 1px 0px 3px 0px white;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    padding: 0px 20px;
+}
+
+.serv-card h4 {
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.serv-card p {
+    color: white;
+    font-size: 15px;
+}
+/*Seção serviços*/
+    /* Fim serviços */
+
     /* Inicio cards */
 .cards {
     width: 100%;
@@ -379,11 +431,9 @@ div.card {
     text-align: center;
 }
     /* Fim Cards */
-    
-    /* Inicio Portfólio */
-    /* Fim Portfólio */
 
-/* Seção portfólio*/
+    /* Inicio Portfólio */
+/* Seção portfólio */
 #Portfólio {
     display: flex;
     justify-content: center;
@@ -433,7 +483,9 @@ div.card {
     transform: scale(1.1);
     cursor: pointer;
 }
-/* Seção portfólio*/
+/* Seção portfólio */
+    /* Fim Portfólio */
+
     /* Inicio Contato */
 #contato {
     width: 100%;
