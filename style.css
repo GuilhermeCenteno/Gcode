@@ -410,16 +410,28 @@ div.card {
 
 #Portfólio p {
     color: white;
+    border-bottom: 1px solid white;
+    border-radius: 5px 0px 0px 0px;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .img-port-1 {
-    height: 400px;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 500px;
     width: 400px;
-    background-image: url('img/port/House\ cake\ desktop.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    left: 10px;
+}
+
+.img-port-1 img {
+    height: 500px;
+    width: 100%;
+    transition: 1.2s;
+}
+
+.img-port-1 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 /* Seção portfólio*/
     /* Inicio Contato */
