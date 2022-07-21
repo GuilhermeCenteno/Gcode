@@ -363,7 +363,7 @@ section#Serviços > h4 {
     align-items: center;
     flex-direction: column;
     background-color: rgb(5, 1, 109);
-    box-shadow: 1px 0px 3px 0px white;
+    box-shadow: -1px 0px 2px 0px white;
     border-radius: 15px;
     height: 300px;
     width: 300px;
