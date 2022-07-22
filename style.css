@@ -447,7 +447,7 @@ div.card {
 
 section#Portfólio h4 {
     position: relative;
-    top: 0;
+    top: 30px;
 }
 
 .port-card {
@@ -474,18 +474,21 @@ section#Portfólio h4 {
 }
 
 .img-port-1 {
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: 2px 1px 5px 1px black;
     height: 400px;
     width: 400px;
     position: relative;
     bottom: 160px;
-    background-color: red;
 }
 
 .img-port-1 img {
     height: 400px;
     width: 100%;
     transition: 1.5s;
+}
+
+.img-port-1 img:hover {
+    transform: scale(1.1);
 }
 
 .port-card a {
@@ -501,14 +504,10 @@ section#Portfólio h4 {
 }
 
 .port-card a:hover {
-    transform: scale(1.1);
     background-color: green;
     box-shadow: -1px 0px 2px 0px white;
 }
 
-.img-port-1 img:hover {
-    transform: scale(1.1);
-}
 /* Seção portfólio */
     /* Fim Portfólio */
 
@@ -676,6 +675,28 @@ footer h4 {
         margin-top: 80px;
     }
 
+    section#Portfólio {
+        margin-top: 100px;
+    }
+
+    section#Portfólio h4 {
+        position: relative;
+        top: 35px;
+    }
+
+    .img-port-1 {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .img-port-1 img {
+        height: 400px;
+        width: 60%;
+        transition: 1.5s;
+        position: relative;
+        left: 80px;
+    }
+
     footer h4 {
         font-weight: 500;
     }
@@ -733,6 +754,10 @@ footer h4 {
         margin-bottom: 10px;
     }
 
+    h1.text-g {
+        margin-right: 0px;
+    }
+
     .Heatmap-text {
         width: 300px;
         margin-top: -10px;
@@ -774,6 +799,21 @@ footer h4 {
 
     span.card-text {
         font-size: 14px;
+    }
+
+    div.port-card {
+        width: 100%;
+    }
+
+    .img-port-1 {
+        width: 100%;
+        position: relative;
+        right: 10px;
+    }
+
+    .port-card a {
+        position: relative;
+        bottom: 130px;
     }
 
     footer img {
